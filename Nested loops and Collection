@@ -1,0 +1,73 @@
+rows = int(input("Enter the number of rows"))
+col = int(input("Enter the number of columns"))
+symbol = input("Enter the symbol")
+
+for x in range(rows) :
+ for y in range(col):
+    print(symbol ,end = "")
+ print()
+
+COLLECTIONS
+
+
+fruit = ["apple", "mango", "banana","banana"]
+print(fruit[::-1])
+
+
+print(len(fruit))
+print("apple" in fruit)
+
+fruit[0] = "pineapple"
+
+#fruit.insert(4,"orange")
+#fruit.sort()
+#fruit.reverse()
+i = fruit.count("banana")
+print(i)
+
+for x in fruit :
+    print(x)
+
+SETS
+
+fruits = {"apple", "banana", "mango"}
+
+
+
+print(fruits)
+
+for x in fruits:
+    print(x)
+
+tuples
+fruits = ("apple", "banana", "mango")
+
+
+
+print(fruits)
+
+for x in fruits:
+    print(x)
+
+
+
+SHOPPING CART 
+
+
+foods = []
+prices = []
+total = 0
+
+while True :
+    food = input("Enter food name ( q to quit ):  ")
+    if food.lower() == "q" :
+     break
+    else :
+        price = float(input(f"Enter price for the {food} : $ "))
+        foods.append(food)
+        prices.append(price)
+
+
+print(foods)
+print(prices)
+
