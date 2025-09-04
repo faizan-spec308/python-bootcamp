@@ -1,0 +1,35 @@
+# #Same as methods in java
+
+def hello(name, age): #Parameter
+    print("Hello! " + name)
+    print("Hope you are good")
+    print("You are " + str(age)+ " years old")
+
+for x in range(3):
+    hello("Faizan",19)
+
+
+
+# #Return statement
+
+def grades(name, score):
+    return "Name : " + name + "\nScore : " + str(score)
+
+
+
+print(grades("Faizan",98))
+
+# #Keyword Arguments
+
+def hello(first,middle,last):
+    print("Hello " + first + " " + middle + " " + last)
+
+
+
+hello(middle= "Faizan",first= "Mian",last="Naveed")
+
+# #Nested function
+
+
+print(round(abs(float(input("Enter a positive whole number : ")))))
+
