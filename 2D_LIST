@@ -1,0 +1,27 @@
+Name = ["Amad", "Ibrahim", "Ahmad", ]
+Subject = ["Python", "Java","CSS"]
+Grade = ["A", "B", "C"]
+
+Detail = [Name, Subject, Grade]
+
+print(Detail[0][1])
+#
+# #Tuple
+#
+student = ("Faizan",19, "Brunel")
+
+print(student.count("Brunel"))
+print(student.index("Brunel"))
+
+print("**********************")
+
+for x in student :
+    print(x)
+
+
+#Sets
+
+dishes = {"bowl","Plate", "cup."}
+print(dishes)
+for food in dishes :
+    print(food)     
