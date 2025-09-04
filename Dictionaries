@@ -1,0 +1,36 @@
+# #Dictionary
+
+Capital = {'USA':'Washington DC',
+           'Pakistan':'Islamabad',
+           'China':'Beijing'}
+Capital.update({'Germany':'Berlin',})
+Capital.update({'Pakistan':'Sialkot',})
+Capital.pop('Pakistan')
+Capital.clear()
+
+print(Capital.get('Pakistan'))
+print(Capital.values())
+print(Capital.keys())
+
+print(Capital.items())
+
+
+for key, value in Capital.items():
+    print(key, value)
+
+
+
+#Index Operator
+
+name = "faizan Naveed"
+
+print(name.index("a"))
+
+if(name[0].islower()) :
+    name = name.capitalize()
+    print(name)
+
+
+
+firstname = name[0:7].upper()
+print(firstname)
