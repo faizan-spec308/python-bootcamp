@@ -1,0 +1,24 @@
+# *args
+def add(*grades):
+    return "Your grades are: " + str(grades)
+
+grades = []  # empty list to collect grades
+
+for i in range(5):
+    grade = input(f"Enter grade {i+1}: ")
+    grades.append(grade)  # store each grade
+
+print(add(grades))  # unpack list into function
+
+
+
+#**Kwargs
+
+
+def hello(**name) :
+    print("Hello", end = " ")
+    for key, value in name.items() :
+        print(value, end = " ")
+
+
+hello( first = "John",last=  "Tacos", More = "William" , more = "Ben")
