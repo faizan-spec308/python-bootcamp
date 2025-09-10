@@ -1,0 +1,33 @@
+#String_formatting
+
+f_name = "Faizan"
+l_name = "Naveed"
+
+print("My name is {} {}".format("Bakhtawar", "Ibrar"))
+print("My name is {} {}".format(f_name, l_name))
+print("My name is {1} {0}".format(f_name, l_name))
+print("My name is {f_name} {l_name}".format(f_name = "Ahmad", l_name = "Nadeem"))
+
+
+#String padding
+
+capital = "London"
+print("{:10} is the capital of England".format(capital))
+print("{:<10} is the capital of England".format(capital))
+print("{:>10} is the capital of England".format(capital))
+print("{:^10} is the capital of England".format(capital))
+print("{capital:^10} is the capital of USA".format(capital= "New york"))
+print("{:10} is the capital of England".format(capital))
+
+
+
+#Using numbers
+
+
+number = 3.144987
+ex = 1000
+print("The number is {:.2f}".format(number))
+print("The number is {:,}".format(ex))
+print("The number is {:b}".format(ex))
+print("The number is {:o}".format(ex))
+print("The number is {:X}".format(ex))
